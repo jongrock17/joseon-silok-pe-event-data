@@ -26,7 +26,7 @@ The following map illustrates the geographic distribution of relief-related even
 <p align="center">
   <img src="figures/relief_spatial_map.png"
        alt="Spatial distribution of recorded relief events"
-       width="550">
+       width="250">
 </p>
 
 **Figure 1. Spatial distribution of recorded relief events.**
