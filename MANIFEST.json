@@ -1,0 +1,24 @@
+{
+  "release_tag": "v0.1",
+  "artifact_type": "preliminary machine-coded historical event-place pairs",
+  "source_file_name": "consensus_place_event_pairs.jsonl",
+  "source_file_sha256": "e4e75e1f6bc3816e9ccc729b19b8659a45cc728a98bf6da9cb4d14f99343cb0e",
+  "source_file_size_bytes": 87628159,
+  "core_file_sha256": "1e67afba69a0bb997456780bf0a9a06ca0799d7d05c00ce8efff6fd8380571f5",
+  "records": 12745,
+  "distinct_articles": 8268,
+  "distinct_place_strings": 833,
+  "event_type_count": 20,
+  "year_min": 1392,
+  "year_max": 1863,
+  "dated_rows": 12720,
+  "year_missing": 25,
+  "match_rule": "same article_id + same event_type + same normalized place",
+  "conditional_agreements": {
+    "subtype_same": 10534,
+    "assertion_same": 10360,
+    "same_nonnull_place_id": 8653,
+    "same_nonnull_province_label": 8689
+  },
+  "export_note": "Public-oriented core intentionally excludes model evidence text, aliases, and detailed raw records. Full input data not bundled."
+}
