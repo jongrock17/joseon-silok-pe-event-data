@@ -1,8 +1,4 @@
-# Joseon Annals Event–Place Dataset (Two-Model Consensus, v0.1)
-
-**A preliminary machine-coded, article–event–place dataset from the *Veritable Records of the Joseon Dynasty* (조선왕조실록).** This repository provides a first-pass set of records matched across two LLM-based extraction outputs labeled **Codex** and **Claude**. The dataset is intended for exploratory historical political economy research, **not** as a fully validated census of historical events.
-
-> **Release status:** v0.1 / preliminary research dataset. Human validation, coverage auditing, geocoding assessment, and reproduction documentation are pending.
+# Joseon Annals Event–Place Dataset
 
 ## At a glance
 
@@ -20,6 +16,22 @@
 **Unit of observation:** one distinct `article_id × event_type × place_normalized_name` tuple. Multiple rows can refer to a single article or event. Counts below represent coded *event–place mentions*, not necessarily distinct real-world incidents or observed incidence rates.
 
 The data cover dated consensus records from 1392 through 1863 (Taejo–Cheoljong). **This is the observed coverage of the supplied file, not an independently verified statement that all eligible source articles were successfully processed.** Neither Gojong nor Sunjong is represented in this release.
+
+## Example Visualization
+
+### Spatial Distribution of Relief Events
+
+The following map illustrates the geographic distribution of relief-related events extracted from the *Veritable Records of the Joseon Dynasty*.
+
+<p align="center">
+  <img src="figures/relief_spatial_map.png"
+       alt="Spatial distribution of recorded relief events"
+       width="550">
+</p>
+
+**Figure 1. Spatial distribution of recorded relief events.**
+
+
 
 ## Where to start
 
