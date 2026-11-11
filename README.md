@@ -196,12 +196,4 @@ More detail appears in [METHODS_AND_LIMITATIONS.md](METHODS_AND_LIMITATIONS.md).
 
 ## Citation
 
-**Suggested preliminary citation (edit author and URL before publication):**
-
-> [Dataset author]. (2026). *Joseon Annals Event–Place Dataset: Two-Model Consensus (Version 0.1)* [Dataset]. GitHub. [Repository URL].
-
-A DOI can be added if a fixed release is deposited in an archival service. This version should not be described as a peer-reviewed publication or validated benchmark.
-
-## Licensing and attribution
-
-See [RIGHTS_AND_ATTRIBUTION.md](RIGHTS_AND_ATTRIBUTION.md). **No third-party source-text license or unrestricted redistribution right is asserted by this repository.** Any final open license should cover only the components the dataset author can lawfully release. Add the author name, source-edition attribution, model versions, prompting details, and appropriate license terms before publication.
+> Jong Rock Jeong. (2026). *Joseon Annals Event–Place Dataset (Version 0.1)*. GitHub. [Repository URL].
